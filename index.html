@@ -1,0 +1,47 @@
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<title>Todo</title>
+	<link rel='icon' type='image/png' href='img/checklist.png'>
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap" rel="stylesheet">
+
+	<link rel='stylesheet' href='css/normalize.css'>
+	<link rel="stylesheet" href="css/app.css">
+</head>
+
+<body>
+	<div id='header' class='header'>
+		<div class='header-title'>Todo.</div>
+
+		<div class='header-content'>
+			<svg class="icon-tasks" width='55' height='50'>
+				<use xlink:href="img/icons.svg#tasks"></use>
+			</svg>
+
+			<div class='header-countTasks'>0</div>
+		</div>
+	</div>
+
+	<div class='header-shadow'></div>
+
+	<div class='content'>
+		<div class='start-text'>Start completing tasks 📌</div>
+		<!-- Task -->
+
+		<!-- button New Task -->
+		<button id='btn-newtask' class='btn-newtask'>
+			<div class='btn-text'>Сreate Task</div>
+
+			<svg class="icon-plus" width='30' height='30'>
+				<use xlink:href="img/icons.svg#plus"></use>
+			</svg>
+		</button>
+	</div>
+
+
+	<script src='js/app.js'></script>
+</body>
+
+</html>
